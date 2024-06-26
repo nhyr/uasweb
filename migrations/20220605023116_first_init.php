@@ -56,6 +56,7 @@ final class FirstInit extends AbstractMigration
                 'created_at' => date('Y-m-d'),
             ],
         ]);
+
     }
 
     protected function down(): void
